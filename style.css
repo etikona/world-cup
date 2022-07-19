@@ -1,0 +1,53 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F3F4 ;
+    margin: 0;
+}
+/*-----------------
+--------- Header section------ 
+---------------------------------*/
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.btn{
+    background-color: #ED334E;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+   
+}
+
+/* .....................Blog styles
+............................................ */
+section{
+    margin-top: 50px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 20%;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.another a{
+text-decoration: none;
+background-color: #F4F6F7 ;
+color: black;
+
+}
