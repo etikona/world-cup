@@ -333,4 +333,7 @@ footer p {
     footer {
         display: block;
     }
+    footer p{
+        display: block;
+    }
 }
